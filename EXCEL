@@ -1,0 +1,15 @@
+# Formiranje excel fajla 
+==================================================================
+wb=openpyxl.Workbook()
+ws=wb.active
+ws.title='ime_sheeta'             # menja naziv aktivnog sheet-a
+
+
+
+
+
+wb.save(filename='imef_ajla.xlsx')  # snima excel file
+
+
+
+
